@@ -1,23 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Contact</title>
 </head>
-<body>
-    <ul>
-        <li><a href="index.html" name="Start" title="Start">Start</li></a>
-        <li><a href="curriculum_vitae.html" name="Curriculum Vitae" title="Curriculum Vitae">Curriculum Vitae</li></a>
-        <li><a href="ervaring.html" name="ervaring" title="Ervaring">Ervaring</li></a>
-        <li><a href="hobby.html" name="Hobby's" title="Hobby's">Hobby's</li></a>
-        <li><a href="contact.html" name="Contact" title="Contact">Contact</link></a>
-    </ul>
-    <h1>Contact</h1>
+<body style="background-color: #7E846B">
+
+    <div>
+        <table width="20%", align="left">
+            <tr>
+                <th><a href="index.html" name="Start" title="Start">Start</a></th>
+                <th><a href="curriculum_vitae.html" name="Curriculum Vitae" title="Curriculum Vitae">Curriculum Vitae</a></th>
+                <th><a href="ervaring.html" name="ervaring" title="Ervaring">Ervaring</a></th>
+                <th><a href="hobby.html" name="Hobby's" title="Hobby's">Hobby's</a></th>
+                <th><a href="contact.html" name="Contact" title="Contact">Contact</a></th>
+            </tr>
+        </table>
+        </div>
+        
+        <br>
+        
+        <div style="color:white">
+            
+        <h1>U kan mij bereiken via de volgende kanalen: </h1><br>
+        <div>
+            <ul>
+                <li>email: <a href="mailto:tom.belmans@gmail.com">tom.belmans@gmail.com</a></li>
+                <li>linkedin: <a href="https://www.linkedin.com/in/tom-belmans-515a14175/" target="_blank">Tom Belmans</a></li>
+            </ul>
+        </div>
+
+        <h3>of vul het onderstaande contactformulier in:</h3>
+        <form action="contact" method="post" name="formulier">
+            <div>
+                <label for="naam">Naam: <input type="text" name="naam" id="naam" placeholder="Naam en voornaam" required> </label>
+            </div>
+            <div>
+                <label for="telefoonnummer">Telefoonnummer: <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="Mobiel of vast telefoonnummer"> </label>
+            </div>
+            <div>
+                <label for="email">e-mail adres: <input type="email" name="email" id="email" required> </label>
+            </div>
+            <div>
+                <label for="adres">Onderwerp: <input type="text" name="onderwerp" id="onderwerp" required> </label>
+            </div>
+            <divs>
+                <label for="bericht">Bericht: <textarea name="bericht" form="formulier"></textarea> </label>
+            </divs>
+            <div>
+                <input type="submit" value="Verzend bericht">
+            </div>
+        </form>
+
+    </div>
+
+    <div align="center">
+        <img src="images/contact/markus-winkler-q3QPw37J6Xs-unsplash.jpg" alt="contact" title="contacteer mij"  width="25%">
+    </div>
 </body>
 </html>
