@@ -1,98 +1,201 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Ervaring</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Custom style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap style sheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Social media icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Startpagina</title>
 </head>
-<body style="background-color: #7E846B">
 
-    <div>
-    <table width="20%", align="left">
-        <tr>
-            <th><a href="index.html" name="Start" title="Start">Start</a></th>
-            <th><a href="curriculum_vitae.html" name="Curriculum Vitae" title="Curriculum Vitae">Curriculum Vitae</a></th>
-            <th><a href="ervaring.html" name="ervaring" title="Ervaring">Ervaring</a></th>
-            <th><a href="hobby.html" name="Hobby's" title="Hobby's">Hobby's</a></th>
-            <th><a href="contact.html" name="Contact" title="Contact">Contact</a></th>
-        </tr>
-    </table>
+<!-- Page body properties -->
+
+<body class="d-flex h-100 text-center text-bg-dark">
+
+    <!-- Custom styles for this template -->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0">Tom Belmans</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0" href="index.html">Startpagina</a>
+            <a class="nav-link fw-bold py-1 px-0" href="curriculum_vitae.html">Curriculum Vitae</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="ervaring.html">Ervaring</a>
+            <a class="nav-link fw-bold py-1 px-0" href="hobby.html">Hobby</a>
+            <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-5 mt-5">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 card-bg">
+                <img src="/images/ervaring/Warmtebehandelingstechnieken van staal.jpg" class="card-img-top" alt="Afbeelding van een TTT-diagram">
+                <div class="card-body">
+                  <h5 class="card-title">Warmtebehandelingstechnieken van staal</h5>
+                  <p class="card-text">Fasetransformaties bij het opwarmen en afschrikken van staal. Interpretatie van het ijzer-koolstofdiagram, CCT- en TTT diagrammen. Soorten oppervlakte warmtebehandelingstechnieken: Randopkoling, nitreren, inductieharden, carbonitreren en nitrocarboneren.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2015 <br> Opleidingcentrum: Vereniging voor Warmtebehandelingstechniek vzw</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/staal in gebruikstoestand.jpg" class="card-img-top" alt="Afbeelding van geharde tandwielen">
+                <div class="card-body">
+                  <h5 class="card-title">Constructies in staal en hun metallografische evaluatie: staal in gebruikstoestand</h5>
+                  <p class="card-text">Metallografische structuren en kwaliteitsanalyses van staal: Microstructuren bij randopkoling, nitreren, inductieharden, oppervlaktehardheidsmetingen en hardheidsprofielen.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2017 <br> Opleidingcentrum: Dr. Sommer Werkstofftechnik</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/staal in levertoestand.jpeg" class="card-img-top" alt="Afbeelding van stalen baren">
+                <div class="card-body">
+                  <h5 class="card-title">Constructies in staal en hun metallografische evaluatie: staal in levertoestand</h5>
+                  <p class="card-text">Metallografische structuren en kwaliteitsanalyses van staal: Microstructuren van staal in levertoestand (normaliseren, zacht gloeien en QT). Korrelgrootte analyseren volgens ISO643. Niet metallische inclusies analyseren volgens ISO4967. Microstructuren in gietijzer volgens ISO945.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2018 <br> Opleidingcentrum: Dr. Sommer Werkstofftechnik</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <br>
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/Afschikmedia.jpg" class="card-img-top" alt="Afbeelding van staal afschrikken in water">
+                <div class="card-body">
+                  <h5 class="card-title">Afschrikmedia en afschrikfases</h5>
+                  <p class="card-text">Fasetransformaties bij het afschrikken van opgekoolde componenten. Soorten afschrikmedia en afschrikfases. Invloed van het afschrikken op de microstructuur van opgekoold laag gelegeerd staal.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2018 <br> Opleidingcentrum: Houghton</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/schadeanalyse.jpg" class="card-img-top" alt="Afbeelding vna een beschadigd tandwiel">
+                <div class="card-body">
+                  <h5 class="card-title">Schade-analyse en fractografie</h5>
+                  <p class="card-text">Onderzoektechnieken en schadebeeld ana1yse bij falingen. Fractografie van een gefaalde componenten en rapportering. Microscopie en SEM EDX-analysetechnieken. Statistische calculaties van procesparameters bij gefaalde componenten.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2018 <br> Opleidingcentrum: Dr. Sommer Werkstofftechnik</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/powerbi.jpg" class="card-img-top" alt="Afbeelding van een PowerBI dashboard">
+                <div class="card-body">
+                  <h5 class="card-title">Introductie Microsoft PowerBI</h5>
+                  <p class="card-text">Inleiding en werking Microsoft PowerBI. Interactief dashboard maken en linken aan Microsoft Sharepoint.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2019 <br> Opleidingcentrum: Learnit Training</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/corrosie.jpg" class="card-img-top" alt="Afbeelding gecorrodeerde tandwielen">
+                <div class="card-body">
+                  <h5 class="card-title">Corrosie- en corrosiepreventie</h5>
+                  <p class="card-text">Soorten corrosie, corrosieproces en corrosiepreventie.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2019 <br> Opleidingcentrum: Frans Vos consultancy</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/creo.jpg" class="card-img-top" alt="Afbeelding van planetaire tandwielen">
+                <div class="card-body">
+                  <h5 class="card-title">Introductie Creo Parametric 4.0</h5>
+                  <p class="card-text">Technisch 3D-ontwerp modelleren, assembleren en documenteren.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2020 <br> Opleidingcentrum: PTC University</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/iso_9001.jpg" class="card-img-top" alt="Afbeelding van ISO9001:2015 inhoudelijk">
+                <div class="card-body">
+                  <h5 class="card-title">Kwaliteitsmanagement volgens ISO 9001:2015</h5>
+                  <p class="card-text">Plan-do-check-act-methodologie (PDCA) opgebouwd volgens de Harmonized Structure (HS). Dit kwaliteitsmanagementsysteem biedt een procesgerichte benadering voor het documenteren en herzien van de structuur, verantwoordelijkheden en procedures voor een effectief kwaliteitsbeheer in een organisatie.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2021 <br> Opleidingcentrum: Allanta vzw</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="/images/ervaring/Internal-Audit-scaled.jpeg" class="card-img-top" alt="Afbeelding van het ISO9001:2015 interne auditprocess">
+                <div class="card-body">
+                  <h5 class="card-title">Interne auditor ISO9001:2015</h5>
+                  <p class="card-text">De internationale norm ISO 9001 stelt hoge eisen aan het kwaliteitsmanagementsysteem en de manier waarop de organisatie met het kwaliteitsbeleid omgaat. Wie hun organisatie en processen regelmatig aan de norm toetst, verhoogt structureel de efficiëntie van een organisatie volgens de technieken en vaardigheden van ISO 19011:2018.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Periode opleiding: 2022 <br> Opleidingcentrum: Allanta vzw</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </main>
+
+      <!-- Custom styles for this template -->
+      <footer class="mt-auto text-white-50">
+        <div class="text-center p-3">
+          <section class="mb-4">
+            <a class="btn btn-primary" style="background-color: #3b5998" href="https://www.facebook.com/tom.belmans.3"
+              target="_blank" role="button"><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-primary" style="background-color: #55acee" href="https://twitter.com/Tommios801"
+              target="_blank" role="button"><i class="bi bi-twitter"></i></a>
+            <a class="btn btn-primary" style="background-color: #ac2bac" href="https://www.instagram.com/tom.belmans/"
+              target="_blank" role="button"><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-primary" style="background-color: #0082ca"
+              href="https://www.linkedin.com/in/tom-belmans-515a14175/" target="_blank" role="button"><i
+                class="bi bi-linkedin"></i></a>
+          </section>
+          &copy; 2022 Copyright - Tom Belmans
+        </div>
+      </footer>
     </div>
-    
-    <br>
-
-    <div style="color:white">
-    <h1>Beroepservaring</h1>
-    <table cellspacing="5", cellpadding="5", border="1" width="80%">
-        <tr>
-            <th>Opleiding</th>
-            <th>Omschrijving</th>
-            <th>Periode</th>
-            <th>Opleidingscentrum</th>
-        </tr>
-        <tr>
-            <td>Warmtebehandelingstechnieken van staal</td>
-            <td>Fasetransformaties bij het opwarmen en afschrikken van staal. Interpretatie van het ijzer-koolstofdiagram, CCT- en TTT diagrammen. Soorten oppervlakte warmtebehandelingstechnieken: Randopkoling, nitreren, inductieharden, carbonitreren en nitrocarboneren.</td>
-            <td>2015</td>
-            <td>Vereniging voor Warmtebehandelingstechniek vzw</td>
-        </tr>
-        <tr>
-            <td>Constructies in staal en hun metallografische evaluatie: staal in gebruikstoestand</td>
-            <td>Metallografische structuren en kwaliteitsanalyses van staal: Microstructuren bij randopkoling, nitreren, inductieharden, oppervlaktehardheidsmetingen en hardheidsprofielen.</td>
-            <td>2017</td>
-            <td>Dr. Sommer Werkstofftechnik</td>
-        </tr>
-        <tr>
-            <td>Constructies in staal en hun metallografische evaluatie: staal in levertoestand</td>
-            <td>Metallografische structuren en kwaliteitsanalyses van staal: Microstructuren van staal in levertoestand (normaliseren, zacht gloeien en QT). Korrelgrootte analyseren volgens ISO643. Niet metallische inclusies analyseren volgens ISO4967. Microstructuren in gietijzer volgens ISO945.</td>
-            <td>2018</td>
-            <td>Dr. Sommer Werkstofftechnik</td>
-        </tr>
-        <tr>
-            <td>Afschrikmedia en afschrikfases</td>
-            <td>Fasetransformaties bij het afschrikken van opgekoolde componenten. Soorten afschrikmedia en afschrikfases. Invloed van het afschrikken op de microstructuur.</td>
-            <td>2018</td>
-            <td>Houghton</td>
-        </tr>
-        <tr>
-            <td>Schade-analyse en fractografie</td>
-            <td>Onderzoektechnieken en schadebeeld ana1yse bij falingen. Fractografie van een gefaalde componenten en rapportering. Microscopie en SEM EDX-analysetechnieken. Statistische calculaties van procesparameters bij gefaalde componenten.</td>
-            <td>2018</td>
-            <td>Dr. Sommer Werkstofftechnik</td>
-        </tr>
-        <tr>
-            <td>Introductie Microsoft PowerBI</td>
-            <td>Inleiding en werking Microsoft PowerBI. Interactief dashboard maken en linken aan Microsoft Sharepoint.</td>
-            <td>2019</td>
-            <td>Learnit Training</td>
-        </tr>
-        <tr>
-            <td>Corrosie- en corrosiepreventie</td>
-            <td>Soorten corrosie, corrosieproces en corrosiepreventie.</td>
-            <td>2019</td>
-            <td>Frans Vos consultancy</td>
-        </tr>
-        <tr>
-            <td>Introductie Creo Parametric</td>
-            <td>Technisch 3D-ontwerp modelleren, assembleren en documenteren.</td>
-            <td>2020</td>
-            <td>PTC University</td>
-        </tr>
-        <tr>
-            <td>Kwaliteitsmanagement volgens ISO 9001:2015</td>
-            <td>Plan-do-check-act-methodologie (PDCA) opgebouwd volgens de Harmonized Structure (HS). Dit kwaliteitsmanagementsysteem biedt een procesgerichte benadering voor het documenteren en herzien van de structuur, verantwoordelijkheden en procedures voor een effectief kwaliteitsbeheer in een organisatie.</td>
-            <td>2021</td>
-            <td>Allanta vzw</td>
-        </tr>
-            <td>Interne auditor ISO9001</td>
-            <td>De internationale norm ISO 9001 stelt hoge eisen aan het kwaliteitsmanagementsysteem en de manier waarop de organisatie met het kwaliteitsbeleid omgaat. Wie hun organisatie en processen regelmatig aan de norm toetst, verhoogt structureel de efficiëntie van een organisatie volgens de technieken en vaardigheden van ISO 19011:2018.</td>
-            <td>2022</td>
-            <td>Allanta vzw</td>
-        </tr>
-    </table>
-    <div>
-
 </body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </html>

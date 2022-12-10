@@ -1,66 +1,173 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Hobby's</title>
-</head>
-<body style="background-color: #7E846B">
 
-    <div>
-        <table width="20%", align="left">
-            <tr>
-                <th><a href="index.html" name="Start" title="Start">Start</a></th>
-                <th><a href="curriculum_vitae.html" name="Curriculum Vitae" title="Curriculum Vitae">Curriculum Vitae</a></th>
-                <th><a href="ervaring.html" name="ervaring" title="Ervaring">Ervaring</a></th>
-                <th><a href="hobby.html" name="Hobby's" title="Hobby's">Hobby's</a></th>
-                <th><a href="contact.html" name="Contact" title="Contact">Contact</a></th>
-            </tr>
-        </table>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  Custom style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap style sheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Social media icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Startpagina</title>
+</head>
+
+<!-- Page body properties -->
+
+<body class="d-flex h-100 text-center text-bg-dark">
+
+  <!-- Custom styles for this template -->
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <header class="mb-auto">
+      <div>
+        <h3 class="float-md-start mb-0">Tom Belmans</h3>
+        <nav class="nav nav-masthead justify-content-center float-md-end">
+          <a class="nav-link fw-bold py-1 px-0" href="index.html">Startpagina</a>
+          <a class="nav-link fw-bold py-1 px-0" href="curriculum_vitae.html">Curriculum Vitae</a>
+          <a class="nav-link fw-bold py-1 px-0" href="ervaring.html">Ervaring</a>
+          <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="hobby.html">Hobby</a>
+          <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-5 mt-1"></main>
+    <div class="container text-center">
+      <h2 class="header-h2">Hobbies</h2>
+      <div class="row">
+        <div class="col">
+          <h3>Computertechnologie</h3>
+          <p>Mijn werktijd en vrije tijd spendeer ik veelal achter de PC en heb reeds een aantal leuke werk gerelateerde- en thuisprojecten gerealiseerd, zoals:</p>
         </div>
-        
-        <br>
-        
-    <div style="color:white">
-        
-        <div>
-            <h1>Computertechnologie</h1>
-            <p> Mijn werktijd en vrije tijd spendeer ik veelal achter de PC en heb reeds een aantal leuke werk gerelateerde- en thuisprojecten gerealiseerd, zoals: <br></p>
-            <h2>Prioriteitsdatabank:</h2> 
-            <p>Als ik aangeworven werd als Lab Technician heb ik samen met mijn leidinggevende een prioriteitsdatabank uitgewerkt in Micosoft Access, wat een zeer leerrijke ervaring zo bleek. Deze databank fungeerde niet enkel als takenlijst, maar ook de opslaglocaties van metallografische samples en restmaterialen werden bijgehouden. Het project was wel beperkt tot het Access programma waardoor de eindgebruiker zelf niet kon raadplegen wat de status van zijn aanvra(a)g(en) was.
-            Met dit project heb ik kennis gemaakt met databanken, aanmaken van tabellen, filteren met behulp van querries en SQL en visualisaties maken met forms. <br></p>
-            <h2>Synology NAS:</h2>
-            <p>Ons gezin maakt gebruik van een Synology-NAS waarbij met behulp van cloud-applicaties de foto’s van onze mobiele telefoon gesynkroniseert worden op de NAS.
+    </div>
+
+    <div class="container text-center mt-2">
+      <div class="row">
+        <div class="col">
+          <h4>Prioriteitsdatabank</h4>
+          <p>Als ik aangeworven werd als Lab Technician heb ik samen met mijn leidinggevende een prioriteitsdatabank uitgewerkt in Micosoft Access, wat een zeer leerrijke ervaring zo bleek. Deze databank fungeerde niet enkel als takenlijst, maar ook de opslaglocaties van metallografische samples en restmaterialen werden bijgehouden. Het project was wel beperkt tot het Access programma waardoor de eindgebruiker zelf niet kon raadplegen wat de status van zijn aanvra(a)g(en) was.
+            Met dit project heb ik kennis gemaakt met databanken, aanmaken van tabellen, filteren met behulp van querries en SQL en visualisaties maken met forms.</p>
+        </div>
+        <div class="col">
+          <h4>Synology NAS</h4>
+          <p>Ons gezin maakt gebruik van een Synology-NAS waarbij met behulp van cloud-applicaties de foto’s van onze mobiele telefoon gesynkroniseert worden op de NAS.
             Wat home-security betreft heb ik een home-surveillance systeem geïmplementeerd waarbij de beelden van een aantal camera’s opgenomen en bewaard worden op de NAS.
             Met behulp van de Docker-applicatie draait er een Pi-Hole emulatie waarbij via een virtueel netwerk de toestellen aangesloten op het thuisnetwerk veelal reclamevrij opereren, uitgebreid met een OpenVPN kunnen ook alle mobiele apparaten die zich buiten het thuisnetwerk bevinden ook reclamevrij opereren.
             Met dit project heb ik kennis kunnen maken met thuis-netwerken en de basisprincipes bij het opzetten van een server systeem wat ik reeds opgestoken had in een voormalige opleiding Graduaat Informatica.</p>
-            <h2>Hackintosh:</h2>
-            <p>Hoewel dit project zich in de grijze zone bevind, vond ik het een leuke uitdaging om het Apple Mackintosh (MacOS) besturingssysteem te installeren op een PC, dit met behulp van de Clover bootloader. Na veel opzoekwerk en trial-and-error ben ik erin geslaagd om alle functies van het MacOS besturingssystem feilloos te laten werken.
-            Met dit project heb ik niet enkel kennis gemaakt met het MacOS besturingssysteem, maar ook met de Linux terminal en de Linux commando’s. Dit gaf me ook de opportuniteit om de Mac systeemstructuur te keren kennen, zoals:
-            <ul>
-                <li>boot flags</li>
-                <li>kernel extensions</li>
-            </ul>
-            Omwille van eventuele legale bezwaren heb ik deze configuratie van mijn PC verwijderd, het was me immers enkel te doen om de uitdaging, dan wel om effectief het systeem te gebruiken.</p>
         </div>
-        
-        <div>    
-            <h1>CAD & 3D printen</h1>
-            <p>Dingen creëren zit in mijn bloed en zoals het spreekwoord zegt: “Bloed kruipt waar het niet staan kan” ben ik in mijn vrije tijd regelmatig bezig met technische 3D creaties die ik op mijn 3D printer realiseer. Een beperkt aantal van mijn creaties zijn terug te vinden op Thingiverse.
-            Mijn 3D printer heb ik uitgerust met een Raspberry Pi 4 waarop een Octoprint-distributie opereert. Hierdoor kan ik mijn 3D creaties rechtstreeks naar mijn 3D printer zenden en verder in de gaten houden met behulp van een camera die verbonden is met de Raspberry Pi. Ook buiten het thuisnetwerk kan ik met behulp van OpenVPN mijn 3D printer consulteren.</p>
-        </div>    
-        
-        <div>       
-            <h1>Recreatief sporten, mountainbiken</h1>
-            <p>“Mens sana in corpore sano”, een oud spreekwoord dat allesomvattend is. Mijn vrije tijd spendeer ik graag op mijn Canyon mountainbike, in groep of met een kameraad. Ook ga ik graag een eindje wandelen met het gezin of loop ik op de loopband. Veel van mijn projecten hebben vorm gekregen tijdens het sporten, dit geeft me immers tijd om te reflecteren.</p>
+        <div class="col">
+          <h4>Hackintosh</h4>
+          <p>Hoewel dit project zich in de grijze zone bevind, vond ik het een leuke uitdaging om het Apple Mackintosh (MacOS) besturingssysteem te installeren op een PC, dit met behulp van de Clover bootloader. Na veel opzoekwerk en trial-and-error ben ik erin geslaagd om alle functies van het MacOS besturingssystem feilloos te laten werken.
+            Met dit project heb ik niet enkel kennis gemaakt met het MacOS besturingssysteem, maar ook met de Linux terminal en de Linux commando’s. Dit gaf me ook de opportuniteit om de Mac systeemstructuur te keren kennen, zoals bootflags en kernel extentions. Omwille van eventuele legale bezwaren heb ik deze configuratie van mijn PC verwijderd, het was me immers enkel te doen om de uitdaging, dan wel om effectief het systeem te gebruiken.</p>
         </div>
-
-        <div align="center">
-            <img src="images/hobby/jainath-ponnala-9wWX_jwDHeM-unsplash.jpg" alt="portfolio" title="netwerken"  width="30%">
-            <img src="images/hobby/gavin-allanwood-Q1NS-nISNIw-unsplash.jpg" alt="portfolio" title="3D creaties"  width="30%">
-        </div>
+      </div>
     </div>
+
+    <div class="container text-center mt-3">
+      <div class="row">
+        <div class="col">
+          <h3>CAD & 3D printen</h3>
+          <p>Dingen creëren zit in mijn bloed en zoals het spreekwoord zegt: “Bloed kruipt waar het niet staan kan” ben ik in mijn vrije tijd regelmatig bezig met technische 3D creaties die ik op mijn 3D printer realiseer. Een beperkt aantal van mijn creaties zijn terug te vinden op Thingiverse.
+            Mijn 3D printer heb ik uitgerust met een Raspberry Pi 4 waarop een Octoprint-distributie opereert. Hierdoor kan ik mijn 3D creaties rechtstreeks naar mijn 3D printer zenden en verder in de gaten houden met behulp van een camera die verbonden is met de Raspberry Pi. Ook buiten het thuisnetwerk kan ik met behulp van OpenVPN mijn 3D printer consulteren.</p>
+        </div>
+        <div class="col">
+          <h3>Recreatief sporten, mountainbiken</h3>
+          <p>“Mens sana in corpore sano”, een oud spreekwoord dat allesomvattend is. Mijn vrije tijd spendeer ik graag op mijn Canyon mountainbike, in groep of met een kameraad. Ook ga ik graag een eindje wandelen met het gezin of loop ik op de loopband. Veel van mijn projecten hebben vorm gekregen tijdens het sporten, dit geeft me immers tijd om te reflecteren.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/hobby/3dprinten.jpg" class="d-block w-100" alt="html">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CAD & 3D printen</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hobby/mountainbike.jpg" class="d-block w-100" alt="css">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mountainbiken</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hobby/rapsberry pi.jpg" class="d-block w-100" alt="bootstrap">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Computertechnologie: Raspberry Pi</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hobby/synology.jpg" class="d-block w-100" alt="github">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Computertechnologie: NAS</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hobby/dataBase.jpg" class="d-block w-100" alt="C#">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Computertechnologie: Databanken</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hobby/mac.jpg" class="d-block w-100" alt="C#">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Computertechnologie: Hackintosh</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Vorige</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Volgende</span>
+      </button>
+    </div>
+
+    </main>
+
+    <!-- Custom styles for this template -->
+    <footer class="mt-auto text-white-50">
+      <div class="text-center p-3">
+        <section class="mb-4">
+          <a class="btn btn-primary" style="background-color: #3b5998" href="https://www.facebook.com/tom.belmans.3"
+            target="_blank" role="button"><i class="bi bi-facebook"></i></a>
+          <a class="btn btn-primary" style="background-color: #55acee" href="https://twitter.com/Tommios801"
+            target="_blank" role="button"><i class="bi bi-twitter"></i></a>
+          <a class="btn btn-primary" style="background-color: #ac2bac" href="https://www.instagram.com/tom.belmans/"
+            target="_blank" role="button"><i class="bi bi-instagram"></i></a>
+          <a class="btn btn-primary" style="background-color: #0082ca"
+            href="https://www.linkedin.com/in/tom-belmans-515a14175/" target="_blank" role="button"><i
+              class="bi bi-linkedin"></i></a>
+        </section>
+        &copy; 2022 Copyright - Tom Belmans
+      </div>
+    </footer>
+  </div>
 </body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </html>

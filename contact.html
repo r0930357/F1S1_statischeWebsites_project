@@ -1,64 +1,137 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Custom style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap style sheet -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Social media icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <title>Startpagina</title>
 </head>
-<body style="background-color: #7E846B">
 
-    <div>
-        <table width="20%", align="left">
-            <tr>
-                <th><a href="index.html" name="Start" title="Start">Start</a></th>
-                <th><a href="curriculum_vitae.html" name="Curriculum Vitae" title="Curriculum Vitae">Curriculum Vitae</a></th>
-                <th><a href="ervaring.html" name="ervaring" title="Ervaring">Ervaring</a></th>
-                <th><a href="hobby.html" name="Hobby's" title="Hobby's">Hobby's</a></th>
-                <th><a href="contact.html" name="Contact" title="Contact">Contact</a></th>
-            </tr>
-        </table>
-        </div>
-        
-        <br>
-        
-        <div style="color:white">
-            
-        <h1>U kan mij bereiken via de volgende kanalen: </h1><br>
+<!-- Page body properties -->
+
+<body class="d-flex h-100 text-center text-bg-dark">
+
+    <!-- Custom styles for this template -->
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
         <div>
-            <ul>
-                <li>email: <a href="mailto:tom.belmans@gmail.com">tom.belmans@gmail.com</a></li>
-                <li>linkedin: <a href="https://www.linkedin.com/in/tom-belmans-515a14175/" target="_blank">Tom Belmans</a></li>
-            </ul>
+          <h3 class="float-md-start mb-0">Tom Belmans</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0" href="index.html">Startpagina</a>
+            <a class="nav-link fw-bold py-1 px-0" href="curriculum_vitae.html">Curriculum Vitae</a>
+            <a class="nav-link fw-bold py-1 px-0" href="ervaring.html">Ervaring</a>
+            <a class="nav-link fw-bold py-1 px-0" href="hobby.html">Hobby</a>
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="px-5 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col text-align">
+              <h1>Mijn contactgegevens</h1>
+              <p class="mt-5">Tom Belmans <br>
+                Speltstraat, 28 <br>
+                2400 Mol <br>
+                +32 479 45 42 09 <br>
+                <a href="mailto:tom.belmans@gmail.com">tom.belmans@gmail.com</a></p>
+              <div class="mapouter mt-5">
+                <div class="gmap_canvas">
+                  <iframe src="https://maps.google.com/maps?q=Speltstraat%2028,%20Mol&amp;t=&amp;z=7&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;">
+                  </iframe><a href="https://technologg.com/" style="display:none">technologg</a>
+                  <style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style>
+                  <style>.gmap_canvas{overflow:hidden;background:none!important;height:400px;width:600px;}</style>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h1>Uw bericht</h1>
+              <form class="row g-3 mt-4">
+                <div class="col-md-6 ">
+                  <label for="inputName" class="form-label">Naam</label>
+                  <input type="text" class="form-control" id="inputName" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail" class="form-label">Voornaam</label>
+                  <input type="text" class="form-control" id="inputName" required>
+                </div>
+                <div class="col-12">
+                  <label for="inputSubject" class="form-label">Email adres</label>
+                  <input type="email" class="form-control" id="inputEmail">
+                </div>
+                <div class="col-12">
+                  <label for="inputEmail" class="form-label">Interesse in skill</label>
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+                      <label class="form-check-label" for="firstRadio">Webdesign</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+                      <label class="form-check-label" for="secondRadio">CAD & 3D Printen</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                      <label class="form-check-label" for="thirdRadio">Recreatief mountainbiken</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                      <label class="form-check-label" for="fourthRadio">Metallografie</label>
+                    </li>
+                    <li class="list-group-item">
+                      <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+                      <label class="form-check-label" for="fifthRadio">Pintjes drinken</label>
+                    </li>
+                  </ul>
+                <div class="col-12 mt-2">
+                  <label for="inputSubject" class="form-label">Onderwerp</label>
+                  <input type="text" class="form-control" id="inputSubject">
+                </div>
+                <div class="mb-3 mt-2">
+                  <label for="exampleFormControlTextarea1" class="form-label">Uw bericht:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Typ hier uw bericht."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Verzend bericht</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
 
-        <h3>of vul het onderstaande contactformulier in:</h3>
-        <form action="contact" method="post" name="formulier">
-            <div>
-                <label for="naam">Naam: <input type="text" name="naam" id="naam" placeholder="Naam en voornaam" required> </label>
-            </div>
-            <div>
-                <label for="telefoonnummer">Telefoonnummer: <input type="tel" name="telefoonnummer" id="telefoonnummer" placeholder="Mobiel of vast telefoonnummer"> </label>
-            </div>
-            <div>
-                <label for="email">e-mail adres: <input type="email" name="email" id="email" required> </label>
-            </div>
-            <div>
-                <label for="adres">Onderwerp: <input type="text" name="onderwerp" id="onderwerp" required> </label>
-            </div>
-            <divs>
-                <label for="bericht">Bericht: <textarea name="bericht" form="formulier"></textarea> </label>
-            </divs>
-            <div>
-                <input type="submit" value="Verzend bericht">
-            </div>
-        </form>
+      </div>
+      </main>
 
-    </div>
-
-    <div align="center">
-        <img src="images/contact/markus-winkler-q3QPw37J6Xs-unsplash.jpg" alt="contact" title="contacteer mij"  width="25%">
+      <!-- Custom styles for this template -->
+      <footer class="mt-auto text-white-50 fixed-bottom">
+        <div class="text-center p-3">
+          <section class="mb-4">
+            <a class="btn btn-primary" style="background-color: #3b5998" href="https://www.facebook.com/tom.belmans.3"
+              target="_blank" role="button"><i class="bi bi-facebook"></i></a>
+            <a class="btn btn-primary" style="background-color: #55acee" href="https://twitter.com/Tommios801"
+              target="_blank" role="button"><i class="bi bi-twitter"></i></a>
+            <a class="btn btn-primary" style="background-color: #ac2bac" href="https://www.instagram.com/tom.belmans/"
+              target="_blank" role="button"><i class="bi bi-instagram"></i></a>
+            <a class="btn btn-primary" style="background-color: #0082ca"
+              href="https://www.linkedin.com/in/tom-belmans-515a14175/" target="_blank" role="button"><i
+                class="bi bi-linkedin"></i></a>
+          </section>
+          &copy; 2022 Copyright - Tom Belmans
+        </div>
+      </footer>
     </div>
 </body>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </html>
